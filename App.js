@@ -49,6 +49,7 @@ export default class App extends PureComponent<Props> {
           const granted = await PermissionsAndroid.request(
               PermissionsAndroid.PERMISSIONS.ACCESS_COARSE_LOCATION,
               {
+                'goodchange':'hihi',
                   'title': 'Access to wi-fi P2P mode',
                   'message': 'ACCESS_COARSE_LOCATION'
               }
